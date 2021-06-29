@@ -1,1 +1,1 @@
-# redux_study
+https://nimblewebdeveloper.com/blog/convert-react-class-to-function-component
