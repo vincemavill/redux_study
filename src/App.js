@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -14,6 +13,8 @@ import Home from "./component/Home"
 import Deposit from "./component/Deposit"
 
 import Form from "./component/Form"
+
+import StorePage from "./component/StorePage"
 
 
 export default function BasicExample() {
@@ -29,6 +30,9 @@ export default function BasicExample() {
           </Route>
           <Route path="/form">
             <Form />
+          </Route>
+          <Route path="/store">
+            <StorePage />
           </Route>
         </Switch>
       </div>

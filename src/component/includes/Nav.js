@@ -26,35 +26,38 @@ function App() {
 
   return (
     <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
+                <a className="navbar-brand" href="#">Navbar</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <Link to="/" class="nav-link">Home</Link>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li className="nav-item">
+                    <Link to="/" className="nav-link">Home</Link>
               
                     </li>
-                    <li class="nav-item">
-                    <Link to="/deposit" class="nav-link">Deposit</Link>
+                    <li className="nav-item">
+                    <Link to="/deposit" className="nav-link">Deposit</Link>
                     </li>
-                    <li class="nav-item">
-                    <Link to="/form" class="nav-link">Form</Link>
+                    <li className="nav-item">
+                    <Link to="/form" className="nav-link">Form</Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to="/store" className="nav-link">Store</Link>
                     </li>
      
             
                 </ul>
 
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-3">
+                <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li className="nav-item mx-3">
                     <b>Wallet: {wallet}</b>
               
                     </li>
 
-                    <li class="nav-item mx-3">
+                    <li className="nav-item mx-3">
                     <b>Cart: {cart}</b>
               
                     </li>
